@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round&display=swap');
+
+#Main{
+    height: 95vh;
+    background:linear-gradient(#1e3c72, #2a5298) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    div{
+        .question{
+            color: #fff;
+            font-size:30px;
+            font-family: 'Crete Round', serif;
+            width: 90%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .options{
+            margin-top: 50px;
+            text-align: center;
+
+            button{
+                margin-left: 15px;
+                margin-right: 15px;
+
+                padding: 10px 25px;
+                border: none;
+                box-shadow: rgba(0, 0, 0, 0.233) 3px 3px 8px;
+                border-radius: 5px;
+                font-weight: bold;
+                color: #fff;
+            }
+
+            .no{
+                background-color: #45CE30;
+            }
+
+            .yes{
+                background-color: #E5B143;
+            }
+        }
+    }
+}
+
+.hide{
+    // font-size: 40px;
+    animation: myAni 1s;
+}
+
+.result{
+    color: rgba(255, 255, 255, 0.657);
+    font-size:30px;
+    font-family: 'Crete Round', serif;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+@keyframes myAni{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
